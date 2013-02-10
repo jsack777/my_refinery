@@ -30,10 +30,10 @@ gem 'jquery-rails', '~> 2.0.0'
 
 # Use unicorn as the app server
 # gem 'unicorn'
+gem 'thin'
 
 # Deploy with Capistrano
 # gem 'capistrano'
-gem 'thin'
 
 # To use debugger
 # gem 'debugger'
@@ -43,10 +43,10 @@ gem 'refinerycms', '~> 2.0.0'
 
 # Specify additional Refinery CMS Extensions here (all optional):
 gem 'refinerycms-i18n', '~> 2.0.0'
-#  gem 'refinerycms-blog', '~> 2.0.0'
-#  gem 'refinerycms-inquiries', '~> 2.0.0'
-#  gem 'refinerycms-search', '~> 2.0.0'
-#  gem 'refinerycms-page-images', '~> 2.0.0'
+gem 'refinerycms-blog', '~> 2.0.0'
+gem 'refinerycms-inquiries', '~> 2.0.0'
+gem 'refinerycms-search', '~> 2.0.0'
+gem 'refinerycms-page-images', '~> 2.0.0'
 
 group :development do
   gem 'meta_request', '~>0.2.1'
