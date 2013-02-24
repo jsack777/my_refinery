@@ -70,7 +70,7 @@ html, body {
 #page_container {
   min-height: 100%;
   height: auto !important;
-  margin: 0 auto -24px;
+  margin: 0 auto -32px;
 }
 
 .header-right {
@@ -87,11 +87,10 @@ header#header {
 
 header#blog_header {
   height: 32px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 footer#site_footer {
-  //margin-top: 64px;
   height: 24px;
   text-align: center;
   clear: both;
@@ -100,7 +99,7 @@ footer#site_footer {
 }
 
 section.details {
-  margin: 24px;
+  margin: 8px 24px;
 }
 
 section#blog_teaser {
